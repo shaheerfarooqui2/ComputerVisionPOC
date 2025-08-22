@@ -6,7 +6,7 @@ import time
 # pip install ultralytics opencv-python
 
 # --- Configuration ---
-RTSP_URL = "rtsp://shaheerfarooqui2@gmail.com:@Venger10@192.168.0.100:554/stream1"
+RTSP_URL = "rtsp://********:@*****@*******:554/stream1"
 
 # Load your custom-trained YOLOv8 model for detecting trash items and possibly human actions/posture
 # You would need to train a model specifically for this, ideally with a dataset
@@ -188,3 +188,4 @@ def process_litter_stream():
 
 if __name__ == "__main__":
     process_litter_stream()
+
